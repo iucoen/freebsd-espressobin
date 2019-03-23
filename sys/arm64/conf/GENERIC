@@ -148,6 +148,11 @@ device		al_eth		# Annapurna Alpine Ethernet NIC
 device		dwc_rk		# Rockchip Designware
 device		dwc_socfpga	# Altera SOCFPGA Ethernet MAC
 
+# Etherswitch devices
+device		etherswitch	# Enable etherswitch support
+device		miiproxy	# Required for etherswitch
+device		e6000sw		# Marvell mv88e6085 based switches
+
 # Block devices
 device		ahci
 device		scbus
