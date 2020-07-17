@@ -7,7 +7,7 @@ DTS=	\
 	armada-388-gp.dts
 .elif ${MACHINE_ARCH} == "aarch64"
 DTS=	\
-	marvell/armada-3720-espressobin.dts
+	marvell/armada-3720-espressobin-v7.dts
 .endif
 
 .include <bsd.dtb.mk>
